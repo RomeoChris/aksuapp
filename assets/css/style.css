@@ -101,6 +101,8 @@
   --body-color: rgba(0, 0, 0, 0.7);
   --gradient-bg: linear-gradient(169.71deg, #FFCD90 0.8%, #FE9063 100.86%);
   --gradient-bg-2: linear-gradient(169.71deg, #FFFBF7 0.8%, #FBE7DF 100.86%);
+  --loader-bg: #0E693E;
+  --loader-bg2: #704FFE;
   --dark: #2F2F2F;
   --bg-white: #FFF;
   --box-shadow: 0px 35px 66px 0px rgba(236, 21, 21, 0.15);
@@ -2263,10 +2265,17 @@ textarea.form-control-lg {
     pointer-events: none;
     opacity: 0.65; }
 
+.btn-hover-s2:hover{
+  background-color: #E6E6E6 !important;
+  border-color: #0E693E !important;
+  border-width: 2px;
+  color: #000 !important;
+}
+
 .btn-primary {
   color: #000;
-  background-color: #FE9063;
-  border-color: #FE9063; }
+  background-color: #0E693E;
+  border-color: #0E693E; }
   .btn-primary:hover {
     color: #000;
     background-color: #fea17a;
@@ -12004,8 +12013,8 @@ button {
     box-shadow: none; }
 
 .btn-primary {
-  background-color: var(--primary);
-  border-color: var(--primary); }
+  background-color: #0E693E;
+  border-color: #0E693E; }
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
     border-color: var(--primary);
     background-color: var(--primary-hover);
@@ -16049,13 +16058,13 @@ ul.list-check {
   position: relative;
   overflow: hidden;
   height: 100vh;
-  background: var(--gradient-bg);
+  background: #ffffff;
   z-index: 999999; }
   .main-screen .circle-1 {
     width: 146px;
     height: 146px;
     border-radius: 50%;
-    background: #fff;
+    background: var(--loader-bg);
     position: absolute;
     top: 80px;
     left: -55px;
@@ -16065,7 +16074,7 @@ ul.list-check {
     width: 436px;
     height: 436px;
     border-radius: 50%;
-    background: var(--gradient-bg);
+    background: var(--loader-bg2);
     position: absolute;
     z-index: -1;
     top: -170px;
@@ -16075,7 +16084,7 @@ ul.list-check {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background: var(--gradient-bg);
+    background: var(--loader-bg2);
     position: absolute;
     top: 240px;
     left: 80px;
@@ -16084,16 +16093,16 @@ ul.list-check {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background: var(--gradient-bg);
+    background: var(--loader-bg);
     position: absolute;
     bottom: 60px;
     left: -40px;
     animation: move1 5s infinite; }
   .main-screen .circle-5 {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
-    background: var(--gradient-bg);
+    background: var(--loader-bg2);
     position: absolute;
     bottom: 210px;
     left: 20px;
@@ -16102,7 +16111,7 @@ ul.list-check {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background: var(--gradient-bg);
+    background: var(--loader-bg);
     position: absolute;
     bottom: 215px;
     right: 55px;
