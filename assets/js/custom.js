@@ -478,3 +478,5 @@ jQuery(window).on('resize',function () {
 	Soziety.resize();
 });
 /*  Window Resize END */	
+
+//
