@@ -464,7 +464,7 @@ jQuery(window).on('load',function () {
     
 	setTimeout(function(){
 		jQuery('#splashscreen').addClass('active');
-		jQuery('#splashscreen').fadeOut(1500);
+		jQuery('#splashscreen').fadeOut(5000);
 	}, 1500);
     $('.theme-dark .custom-switch input').prop('checked', true).addClass('active');
 	
