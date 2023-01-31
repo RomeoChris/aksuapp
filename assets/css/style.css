@@ -11141,7 +11141,7 @@ select {
 .input-group-icon .input-group-text:not(.show-pass) {
   padding: 5px; }
   .input-group-icon .input-group-text:not(.show-pass) .input-icon {
-    background-color: var(--primary-light-2) !important;
+    background-color: #0E693E !important;
     color: #fff;
     padding: 0;
     width: 38px;
