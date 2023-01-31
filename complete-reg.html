@@ -44,13 +44,11 @@
 
     <!-- Welcome Start -->
 	<div class="content-body">
-		<div class="container vh-100"> 
-				<div class="bg-image bg-image-overlay" style="background-image: url(assets/images/login/pic3.jpg);"></div>
-				<div class="join-area">
-					<div class="started">
-						<h1 class="title">Complete Registration</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-					</div>
+		<div class="container vh-100" style="background-color: #fff;"> 
+			<div class="join-area" style="margin: 10vh 10vw;">
+				<div class="started">
+					<h1 class="title" style="margin-bottom: 80px; color: #0E693E; font-size: 32px; line-height: 38.73px; text-align: center;">Bio-Data</h1>
+				</div>
 					<form>
 						<div class="mb-3 input-group input-group-icon">
 							<span class="input-group-text">
@@ -61,18 +59,15 @@
 									</svg>
 								</div>
 							</span>
-							<input type="text" class="form-control" placeholder="Full Name">
+							<input type="text" class="form-control" placeholder="Full Name" style="font-size: 14px; font-weight: 400;">
 						</div>
 						<div class="mb-3 input-group input-group-icon">
 							<span class="input-group-text">
 								<div class="input-icon">
-									<svg width="19" height="19" viewBox="0 0 19 19" fill="none">
-										<path d="M15.587 16.3479V14.8261C15.587 14.019 15.2663 13.2448 14.6956 12.6741C14.1248 12.1033 13.3507 11.7827 12.5435 11.7827H6.45655C5.64937 11.7827 4.87525 12.1033 4.30448 12.6741C3.73372 13.2448 3.41307 14.019 3.41307 14.8261V16.3479" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-										<path d="M9.50002 8.73918C11.1809 8.73918 12.5435 7.37657 12.5435 5.6957C12.5435 4.01483 11.1809 2.65222 9.50002 2.65222C7.81915 2.65222 6.45654 4.01483 6.45654 5.6957C6.45654 7.37657 7.81915 8.73918 9.50002 8.73918Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
 								</div>
 							</span>
-							<select class="form-control"> 
+							<select class="form-control" style="font-size: 14px; font-weight: 400;"> 
 								<option selected>Select Gender</option>
 								<option value="1">Male</option>
 								<option value="2">Female</option>
@@ -82,18 +77,23 @@
 						<div class="mb-3 input-group input-group-icon">
 							<span class="input-group-text">
 								<div class="input-icon">
-									<svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-										<path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-										<path d="M22 6L12 13L2 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
 								</div>		
 							</span>
-							<select class="form-control"> 
+							<select class="form-control" style="font-size: 14px; font-weight: 400;"> 
 								<option selected>Select Department</option>
 								<option value="1">Computer Science</option>
 								<option value="2">Civil Engineering</option>
 								<option value="3">Crop Science</option>
 							</select>
+						</div>
+						<div class="mb-3 input-group input-group-icon">
+							<span class="input-group-text">
+								<div class="input-icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/><path d="M14 3v5h5M12 18v-6M9 15h6"/></svg>
+								</div>		
+							</span>
+							<input type="file" class="form-control" id="customFile" placeholder="Upload image" style="font-size: 14px; font-weight: 400;">
 						</div>
 						<div class="mb-3 input-group input-group-icon">
 							<span class="input-group-text">
@@ -104,7 +104,7 @@
 									</svg>
 								</div>
 							</span>
-							<input type="password" class="form-control dz-password" placeholder="Password">
+							<input type="password" class="form-control dz-password" placeholder="Password" style="font-size: 14px; font-weight: 400;">
 							<span class="input-group-text show-pass"> 
 								<i class="fa fa-eye-slash text-primary"></i>
 								<i class="fa fa-eye text-primary"></i>
@@ -112,11 +112,7 @@
 						</div>
 						
 					</form>
-					<a href="login.html" class="btn btn-primary btn-block mb-3" style="width: 60%;margin: 0 auto;">SUBMIT</a>
-					<div class="d-flex align-items-center justify-content-center">
-						<a href="javascript:void(0);" class="text-light text-center d-block">Don’t have an account?</a>
-						<a href="login.html" class="btn-link d-block ms-3">Sign in</a>
-					</div>
+					<a href="homepage.html" class="btn btn-primary btn-block mb-3" style="width: 60%;margin: 80px auto;">SUBMIT</a>
 				</div>
 			</div>
 		</div>
