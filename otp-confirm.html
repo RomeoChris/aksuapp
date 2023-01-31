@@ -52,15 +52,15 @@
 					</div>
 					<form action="#" style="margin: 100px 30px 30px 30px;">
                         <div method="get" id="otp" class="digit-group" data-group-name="digits" data-autosubmit="false" autocomplete="off">
-                            <input class="form-control" style="border-color: #0E693E; margin-right: 30px;"type="text" id="digit-2" name="digit-2" placeholder="-" data-next="digit-3" data-previous="digit-1" />
-                            <input class="form-control" style="border-color: #0E693E; margin-right: 30px;"type="text" id="digit-3" name="digit-3" placeholder="-" data-next="digit-4" data-previous="digit-2" />
-                            <input class="form-control" style="border-color: #0E693E; margin-right: 30px;"type="text" id="digit-4" name="digit-4" placeholder="-" data-next="digit-5" data-previous="digit-3" />
+                            <input class="form-control" style="border-color: #0E693E; margin-right: 25px;"type="text" id="digit-2" name="digit-2" placeholder="-" data-next="digit-3" data-previous="digit-1" />
+                            <input class="form-control" style="border-color: #0E693E; margin-right: 25px;"type="text" id="digit-3" name="digit-3" placeholder="-" data-next="digit-4" data-previous="digit-2" />
+                            <input class="form-control" style="border-color: #0E693E; margin-right: 25px;"type="text" id="digit-4" name="digit-4" placeholder="-" data-next="digit-5" data-previous="digit-3" />
                             <input class="form-control" style="border-color: #0E693E; "type="text" id="digit-5" name="digit-5" placeholder="-" data-next="digit-6" data-previous="digit-4" />
                         </div>                
                     </form>
 					<div id="otp-timer" class="text-center" style="color: #BDC3C7; margin-bottom: 30px; font-size: 13px;">
 						<script>
-							var timeLeft = 2;
+							var timeLeft = 120;
 							var elem = document.getElementById('otp-timer');
 							var timerId = setInterval(countdown, 1000);
 
